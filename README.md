@@ -114,7 +114,7 @@ Webpack also lets us _transform_ the code we're bundling. That's where Babel com
 Let's practice writing some modular code in our application. 
 
 Our `index.js` file is still empty at this point. Let's practice writing modular code by creating a new file in `/src/components/foo.js` (you'll also need to create the `/src/components/` directory). In that file, we'll add this content:
-
+ 
 ```js
 export const message = "I am a component!";
 ```
@@ -187,6 +187,7 @@ You'll mostly be using this method. It's important to correctly export your comp
 
 ## Future labs
 It's very important to know how this stuff works on a high level, because most of the React code nowadays is being compiled in one way or another — be it using Webpack, Browserify or something else. However, we don't want to create unnecessary busywork for you. Every lab from now on already has the bundling stuff set up for you. You just need to run `npm start` to start the compiling process. This will watch your code anytime you save your code and reload your browser. That's it!
+
 
 ## Resources
 - [Webpack]: http://webpack.github.io
